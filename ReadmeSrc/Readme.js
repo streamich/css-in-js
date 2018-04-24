@@ -21,7 +21,7 @@ const margeManualData = package => {
 
 const getFeatures = package => {
   const map = Object.entries(package.supports).map(([key, value]) => {
-    return value ? ' ✓ ' : ' ✗ '
+    return value ? ' ■ ' : ' □ '
   })
 
   return map.join('')
