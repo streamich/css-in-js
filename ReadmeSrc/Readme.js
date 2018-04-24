@@ -92,7 +92,7 @@ License: ${package.license ? package.license.name : '-'}
 
 [Github](${package.html_url})
 
-[Demo Package](/Packages/${package.packagePath})
+[Demo Package](/Packages/${package.name})
 
 ---
 
