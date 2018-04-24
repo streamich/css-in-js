@@ -80,7 +80,7 @@ const getProjectList = () => {
 ${projectFeaturesHeaders}
 ${getProjectFEaturesRow(package)}
 
-Created by [${package.owner.login}](${package.html_url}) on ${moment(
+Created by [${package.owner.login}](${package.owner.html_url}) on ${moment(
         package.created_at
       ).format('LL')} ${package.archived ? '[***Archived***]' : ''}
 
