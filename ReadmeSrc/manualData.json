@@ -1,7 +1,6 @@
 [
   {
     "name": "aphrodite",
-    "packagePath": "",
     "version": "1.2.3",
     "supports": {
       "automaticVendorPrefix": true,
@@ -13,7 +12,6 @@
   },
   {
     "name": "babel-plugin-css-in-js",
-    "packagePath": "",
     "version": "1.2.2",
     "supports": {
       "automaticVendorPrefix": true,
@@ -25,8 +23,7 @@
   },
   {
     "name": "babel-plugin-pre-style",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
       "automaticVendorPrefix": false,
       "pseudoClasses": true,
@@ -37,8 +34,7 @@
   },
   {
     "name": "classy",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
       "automaticVendorPrefix": false,
       "pseudoClasses": true,
@@ -49,8 +45,6 @@
   },
   {
     "name": "csjs",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
       "pseudoClasses": true,
@@ -61,8 +55,7 @@
   },
   {
     "name": "css-constructor",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
       "automaticVendorPrefix": true,
       "pseudoClasses": true,
@@ -73,8 +66,7 @@
   },
   {
     "name": "css-light",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
       "automaticVendorPrefix": false,
       "pseudoClasses": true,
@@ -85,613 +77,531 @@
   },
   {
     "name": "css-loader",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "css-ns",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "cssobj",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "cssx",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "cxs",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "emotion",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "es-css-modules",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "fela",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "freestyler",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "glamor",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "glamorous",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "hyperstyles",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "i-css",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "j2c",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "jsxstyle",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
+      "automaticVendorPrefix": true,
       "pseudoClasses": false,
       "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "linaria",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "pre-style",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "radium",
-    "packagePath": "",
-    "version": "",
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "react-css-builder",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
       "pseudoClasses": false,
       "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "react-css-components",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "react-css-modules",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "react-cssom",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "react-free-style",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "react-inline",
-    "packagePath": "",
-    "version": "",
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "react-inline-css",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
       "extractCssFile": false
     }
   },
   {
     "name": "react-inline-style",
-    "packagePath": "",
-    "version": "",
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "react-jss",
-    "packagePath": "",
-    "version": "",
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "react-look",
-    "packagePath": "",
-    "version": "",
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "react-native-web",
-    "packagePath": "",
-    "version": "",
     "supports": {
-      "automaticVendorPrefix": false,
+      "automaticVendorPrefix": true,
       "pseudoClasses": false,
       "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "react-statics-styles",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
+      "pseudoClasses": true,
       "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "react-styl",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
       "extractCssFile": false
     }
   },
   {
     "name": "react-style",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
       "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "react-styleable",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "react-styled",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
       "extractCssFile": false
     }
   },
   {
     "name": "react-stylematic",
-    "packagePath": "",
-    "version": "",
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "react-theme",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
       "pseudoClasses": false,
       "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "react-vstyle",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "reactcss",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
+      "automaticVendorPrefix": true,
       "pseudoClasses": false,
       "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "restyles",
-    "packagePath": "",
-    "version": "",
+
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "scope-styles",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "smart-css",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "stilr",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "stylable",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "style-it",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
       "extractCssFile": false
     }
   },
   {
     "name": "styled-components",
-    "packagePath": "",
-    "version": "",
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
       "extractCssFile": false
     }
   },
   {
     "name": "styled-jsx",
-    "packagePath": "",
-    "version": "",
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
       "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "extractCssFile": true
     }
   },
   {
     "name": "styletron",
-    "packagePath": "",
-    "version": "",
     "supports": {
-      "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "automaticVendorPrefix": true,
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "styling",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
+      "pseudoClasses": true,
       "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "superstyle",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
       "pseudoClasses": false,
       "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   },
   {
     "name": "typestyle",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
-      "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
-      "extractCssFile": false
+      "pseudoClasses": true,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
+      "extractCssFile": true
     }
   },
   {
     "name": "uranium",
-    "packagePath": "",
-    "version": "",
     "supports": {
       "automaticVendorPrefix": false,
       "pseudoClasses": false,
-      "mediaQueries": false,
-      "stylesAsObjLiterals": false,
+      "mediaQueries": true,
+      "stylesAsObjLiterals": true,
       "extractCssFile": false
     }
   }

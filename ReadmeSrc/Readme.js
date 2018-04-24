@@ -44,11 +44,11 @@ const getRankRow = package => {
 }
 
 // prettier-ignore
-const projectTableHeaders = `| Stars | Open Issues | Forks | Created | Archived |
+const projectFeaturesHeaders = `| Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
 | - | - | - | - |-|`
 
 // prettier-ignore
-const getProjectRow = package => `|${package.stargazers_count}|${package.open_issues_count}|${package.forks_count}|${moment(package.created_at).format('LL')}| ${package.archived ? '✓':''}
+const getProjectFEaturesRow = package => `|${package.supports.automaticVendorPrefix ? '✓':' '}|${package.supports.pseudoClasses ? '✓':' '}|${package.supports.mediaQueries ? '✓':' '}|${package.supports.stylesAsObjLiterals ? '✓':' '}| ${package.supports.extractCssFile ? '✓':' '}
 `
 
 const getStarRank = () => {
@@ -77,12 +77,16 @@ const getProjectList = () => {
 
 > ${package.description}
 
-${projectTableHeaders}
-${getProjectRow(package)}
+${projectFeaturesHeaders}
+${getProjectFEaturesRow(package)}
 
-Author: [${package.owner.login}](${package.html_url})
+Created by [${package.owner.login}](${package.html_url}) on ${moment(
+        package.created_at
+      ).format('LL')} ${package.archived ? '[***Archived***]' : ''}
 
-
+***${package.stargazers_count}*** stars, ***${
+        package.open_issues_count
+      }*** open issues, ***${package.forks_count}*** forks
 
 License: ${package.license ? package.license.name : '-'}
 
