@@ -1,8 +1,7 @@
 const axios = require('axios')
 const moment = require('moment')
 const sortBy = require('lodash/fp/sortBy')
-const manualData = require('./manualData.json')
-const dummyData = require('./data.json')
+const manualData = require('./data.json')
 
 const fs = require('fs')
 
@@ -21,9 +20,6 @@ const margeManualData = package => {
 }
 
 const getFeatures = package => {
-  // const entries = Object.entries(package.supports)
-  // console.log('entries', entries)
-
   const map = Object.entries(package.supports).map(([key, value]) => {
     return value ? ' ✓ ' : ' ✗ '
   })
@@ -105,21 +101,16 @@ License: ${package.license ? package.license.name : '-'}
 
 const getPackageData = async () =>
   new Promise((resolve, reject) => {
-    const source = dummyData
-
-    data = source.map(package => margeManualData(package))
-
-    resolve()
-    // axios
-    //   .get('https://api.github.com/users/css-in-js-stats/starred?per_page=100')
-    //   .then(response => {
-    //     data = getFeatures(response.data)
-    //     fs.writeFileSync('./log.json', JSON.stringify(data))
-    //     resolve()
-    //   })
-    //   .catch(function(error) {
-    //     reject(error)
-    //   })
+    axios
+      .get('https://api.github.com/users/css-in-js-stats/starred?per_page=100')
+      .then(response => {
+        data = response.data.map(package => margeManualData(package))
+        //fs.writeFileSync('./dumped_data.json', JSON.stringify(data))
+        resolve()
+      })
+      .catch(function(error) {
+        reject(error)
+      })
   })
 
 module.exports = {

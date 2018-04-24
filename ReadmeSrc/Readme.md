@@ -1,5 +1,3 @@
-# CSS in JS Stats
-
 [![Build Status](https://travis-ci.org/MicheleBertoli/css-in-js.svg?branch=master)](https://travis-ci.org/MicheleBertoli/css-in-js)
 
 # CSS in JS
@@ -23,7 +21,7 @@ More ticks doesn't mean "better", it depends on your needs.
 For example, if a package supports the css file extraction you can run the autoprefixing at build time.
 
 ```mmd
-return '> This list has been auto-updated[?](https://github.com/albinotonnina/mmarkdown) on ' + scripts.getDate()
+return '> This list has been auto-updated ([?](https://github.com/albinotonnina/mmarkdown)) on ' + scripts.getDate()
 ```
 
 > Click on a package for more details.

@@ -1,5 +1,3 @@
-# CSS in JS Stats
-
 [![Build Status](https://travis-ci.org/MicheleBertoli/css-in-js.svg?branch=master)](https://travis-ci.org/MicheleBertoli/css-in-js)
 
 # CSS in JS
@@ -22,28 +20,28 @@ npm run build && open index.html
 More ticks doesn't mean "better", it depends on your needs.
 For example, if a package supports the css file extraction you can run the autoprefixing at build time.
 
-> This list has been auto-updated[?](https://github.com/albinotonnina/mmarkdown) on April 24, 2018
+> This list has been auto-updated ([?](https://github.com/albinotonnina/mmarkdown)) on April 24, 2018
 
 > Click on a package for more details.
 
 | Stars | Package | Version | Open Issues | Features ([?](#how-to-read-the-feature-column)) | Created |
 | - | - | - | - | - | - |
-|15654|[styled-components](#styled-components)|[![npm version](https://badge.fury.io/js/styled-components.svg)](https://badge.fury.io/js/styled-components)|121| ✓  ✓  ✓  ✗  ✗ |August 16, 2016|
-  |8633|[react-native-web](#react-native-web)|[![npm version](https://badge.fury.io/js/react-native-web.svg)](https://badge.fury.io/js/react-native-web)|32| ✓  ✗  ✗  ✓  ✓ |June 9, 2015|
-  |6226|[radium](#radium)|[![npm version](https://badge.fury.io/js/radium.svg)](https://badge.fury.io/js/radium)|82| ✓  ✓  ✓  ✓  ✗ |January 9, 2015|
+|15664|[styled-components](#styled-components)|[![npm version](https://badge.fury.io/js/styled-components.svg)](https://badge.fury.io/js/styled-components)|121| ✓  ✓  ✓  ✗  ✗ |August 16, 2016|
+  |8644|[react-native-web](#react-native-web)|[![npm version](https://badge.fury.io/js/react-native-web.svg)](https://badge.fury.io/js/react-native-web)|34| ✓  ✗  ✗  ✓  ✓ |June 9, 2015|
+  |6226|[radium](#radium)|[![npm version](https://badge.fury.io/js/radium.svg)](https://badge.fury.io/js/radium)|83| ✓  ✓  ✓  ✓  ✗ |January 9, 2015|
   |4520|[react-css-modules](#react-css-modules)|[![npm version](https://badge.fury.io/js/react-css-modules.svg)](https://badge.fury.io/js/react-css-modules)|43| ✗  ✓  ✓  ✗  ✓ |August 25, 2015|
-  |4027|[aphrodite](#aphrodite)|[![npm version](https://badge.fury.io/js/aphrodite.svg)](https://badge.fury.io/js/aphrodite)|55| ✓  ✓  ✓  ✓  ✓ |October 7, 2015|
-  |3428|[glamorous](#glamorous)|[![npm version](https://badge.fury.io/js/glamorous.svg)](https://badge.fury.io/js/glamorous)|19| ✓  ✓  ✓  ✓  ✓ |April 3, 2017|
-  |3354|[emotion](#emotion)|[![npm version](https://badge.fury.io/js/emotion.svg)](https://badge.fury.io/js/emotion)|56| ✓  ✓  ✓  ✓  ✓ |May 27, 2017|
+  |4028|[aphrodite](#aphrodite)|[![npm version](https://badge.fury.io/js/aphrodite.svg)](https://badge.fury.io/js/aphrodite)|55| ✓  ✓  ✓  ✓  ✓ |October 7, 2015|
+  |3429|[glamorous](#glamorous)|[![npm version](https://badge.fury.io/js/glamorous.svg)](https://badge.fury.io/js/glamorous)|19| ✓  ✓  ✓  ✓  ✓ |April 3, 2017|
+  |3359|[emotion](#emotion)|[![npm version](https://badge.fury.io/js/emotion.svg)](https://badge.fury.io/js/emotion)|56| ✓  ✓  ✓  ✓  ✓ |May 27, 2017|
   |3093|[glamor](#glamor)|[![npm version](https://badge.fury.io/js/glamor.svg)](https://badge.fury.io/js/glamor)|72| ✓  ✓  ✓  ✓  ✓ |July 18, 2016|
-  |2979|[styled-jsx](#styled-jsx)|[![npm version](https://badge.fury.io/js/styled-jsx.svg)](https://badge.fury.io/js/styled-jsx)|16| ✓  ✓  ✓  ✗  ✓ |December 5, 2016|
-  |2628|[css-loader](#css-loader)|[![npm version](https://badge.fury.io/js/css-loader.svg)](https://badge.fury.io/js/css-loader)|52| ✗  ✓  ✓  ✗  ✓ |April 7, 2012|
-  |2432|[styletron](#styletron)|[![npm version](https://badge.fury.io/js/styletron.svg)](https://badge.fury.io/js/styletron)|44| ✓  ✓  ✓  ✓  ✓ |April 1, 2016|
-  |1853|[typestyle](#typestyle)|[![npm version](https://badge.fury.io/js/typestyle.svg)](https://badge.fury.io/js/typestyle)|9| ✗  ✓  ✓  ✓  ✓ |October 14, 2016|
-  |1789|[jsxstyle](#jsxstyle)|[![npm version](https://badge.fury.io/js/jsxstyle.svg)](https://badge.fury.io/js/jsxstyle)|10| ✓  ✗  ✗  ✓  ✗ |April 22, 2015|
+  |2981|[styled-jsx](#styled-jsx)|[![npm version](https://badge.fury.io/js/styled-jsx.svg)](https://badge.fury.io/js/styled-jsx)|15| ✓  ✓  ✓  ✗  ✓ |December 5, 2016|
+  |2631|[css-loader](#css-loader)|[![npm version](https://badge.fury.io/js/css-loader.svg)](https://badge.fury.io/js/css-loader)|52| ✗  ✓  ✓  ✗  ✓ |April 7, 2012|
+  |2432|[styletron](#styletron)|[![npm version](https://badge.fury.io/js/styletron.svg)](https://badge.fury.io/js/styletron)|45| ✓  ✓  ✓  ✓  ✓ |April 1, 2016|
+  |1854|[typestyle](#typestyle)|[![npm version](https://badge.fury.io/js/typestyle.svg)](https://badge.fury.io/js/typestyle)|9| ✗  ✓  ✓  ✓  ✓ |October 14, 2016|
+  |1790|[jsxstyle](#jsxstyle)|[![npm version](https://badge.fury.io/js/jsxstyle.svg)](https://badge.fury.io/js/jsxstyle)|7| ✓  ✗  ✗  ✓  ✗ |April 22, 2015|
   |1688|[react-style](#react-style)|[![npm version](https://badge.fury.io/js/react-style.svg)](https://badge.fury.io/js/react-style)|33| ✗  ✗  ✓  ✓  ✓ |August 1, 2014|
   |1498|[reactcss](#reactcss)|[![npm version](https://badge.fury.io/js/reactcss.svg)](https://badge.fury.io/js/reactcss)|4| ✓  ✗  ✗  ✓  ✗ |June 25, 2015|
-  |1341|[fela](#fela)|[![npm version](https://badge.fury.io/js/fela.svg)](https://badge.fury.io/js/fela)|14| ✓  ✓  ✓  ✓  ✓ |May 20, 2016|
+  |1343|[fela](#fela)|[![npm version](https://badge.fury.io/js/fela.svg)](https://badge.fury.io/js/fela)|14| ✓  ✓  ✓  ✓  ✓ |May 20, 2016|
   |1000|[cssx](#cssx)|[![npm version](https://badge.fury.io/js/cssx.svg)](https://badge.fury.io/js/cssx)|10| ✓  ✓  ✓  ✗  ✓ |January 3, 2016|
   |864|[cxs](#cxs)|[![npm version](https://badge.fury.io/js/cxs.svg)](https://badge.fury.io/js/cxs)|18| ✗  ✓  ✓  ✓  ✓ |June 29, 2016|
   |843|[react-jss](#react-jss)|[![npm version](https://badge.fury.io/js/react-jss.svg)](https://badge.fury.io/js/react-jss)|24| ✓  ✓  ✓  ✓  ✓ |January 11, 2015|
@@ -102,7 +100,7 @@ For example, if a package supports the css file extraction you can run the autop
 
 Created by [Khan](https://github.com/Khan) on October 7, 2015 
 
-***4027*** stars, ***55*** open issues, ***155*** forks
+***4028*** stars, ***55*** open issues, ***156*** forks
 
 License: -
 
@@ -256,7 +254,7 @@ License: -
 
 Created by [webpack-contrib](https://github.com/webpack-contrib) on April 7, 2012 
 
-***2628*** stars, ***52*** open issues, ***336*** forks
+***2631*** stars, ***52*** open issues, ***336*** forks
 
 License: MIT License
 
@@ -366,7 +364,7 @@ License: MIT License
 
 Created by [emotion-js](https://github.com/emotion-js) on May 27, 2017 
 
-***3354*** stars, ***56*** open issues, ***204*** forks
+***3359*** stars, ***56*** open issues, ***204*** forks
 
 License: MIT License
 
@@ -410,7 +408,7 @@ License: ISC License
 
 Created by [rofrischmann](https://github.com/rofrischmann) on May 20, 2016 
 
-***1341*** stars, ***14*** open issues, ***129*** forks
+***1343*** stars, ***14*** open issues, ***129*** forks
 
 License: MIT License
 
@@ -476,7 +474,7 @@ License: MIT License
 
 Created by [paypal](https://github.com/paypal) on April 3, 2017 
 
-***3428*** stars, ***19*** open issues, ***259*** forks
+***3429*** stars, ***19*** open issues, ***259*** forks
 
 License: MIT License
 
@@ -564,7 +562,7 @@ License: -
 
 Created by [smyte](https://github.com/smyte) on April 22, 2015 
 
-***1789*** stars, ***10*** open issues, ***57*** forks
+***1790*** stars, ***7*** open issues, ***57*** forks
 
 License: Other
 
@@ -630,7 +628,7 @@ License: -
 
 Created by [FormidableLabs](https://github.com/FormidableLabs) on January 9, 2015 
 
-***6226*** stars, ***82*** open issues, ***277*** forks
+***6226*** stars, ***83*** open issues, ***277*** forks
 
 License: Other
 
@@ -872,7 +870,7 @@ License: MIT License
 
 Created by [necolas](https://github.com/necolas) on June 9, 2015 
 
-***8633*** stars, ***32*** open issues, ***677*** forks
+***8644*** stars, ***34*** open issues, ***679*** forks
 
 License: MIT License
 
@@ -1224,7 +1222,7 @@ License: MIT License
 
 Created by [styled-components](https://github.com/styled-components) on August 16, 2016 
 
-***15654*** stars, ***121*** open issues, ***914*** forks
+***15664*** stars, ***121*** open issues, ***914*** forks
 
 License: MIT License
 
@@ -1246,7 +1244,7 @@ License: MIT License
 
 Created by [zeit](https://github.com/zeit) on December 5, 2016 
 
-***2979*** stars, ***16*** open issues, ***134*** forks
+***2981*** stars, ***15*** open issues, ***134*** forks
 
 License: MIT License
 
@@ -1268,7 +1266,7 @@ License: MIT License
 
 Created by [rtsao](https://github.com/rtsao) on April 1, 2016 
 
-***2432*** stars, ***44*** open issues, ***86*** forks
+***2432*** stars, ***45*** open issues, ***86*** forks
 
 License: MIT License
 
@@ -1334,7 +1332,7 @@ License: -
 
 Created by [typestyle](https://github.com/typestyle) on October 14, 2016 
 
-***1853*** stars, ***9*** open issues, ***65*** forks
+***1854*** stars, ***9*** open issues, ***65*** forks
 
 License: MIT License
 
