@@ -22,14 +22,8 @@ npm run build && open index.html
 More ticks doesn't mean "better", it depends on your needs.
 For example, if a package supports the css file extraction you can run the autoprefixing at build time.
 
-#### How to read the Feature column
-
-| Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
-| -------------------------- | -------------- | ------------- | ------------------------- | ---------------- |
-| ✓                          | ✓              | ✓             | ✓                         | ✓                |
-
 ```mmd
-return '> This list has been auto-updated[*](https://github.com/albinotonnina/mmarkdown) on ' + scripts.getDate()
+return '> This list has been auto-updated[?](https://github.com/albinotonnina/mmarkdown) on ' + scripts.getDate()
 ```
 
 > Click on a package for more details.
@@ -58,6 +52,14 @@ return scripts.getProjectList()
 [First Class Styles](https://markdalgleish.github.io/presentation-first-class-styles) by Mark Dalgleish
 
 [Styling React.JS applications](https://www.youtube.com/watch?v=19gqsBc_Cx0) by Max Stoiber
+
+## How to read the Feature column
+
+| Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
+| -------------------------- | -------------- | ------------- | ------------------------- | ---------------- |
+| ✓                          | ✓              | ✓             | ✓                         | ✓                |
+
+↑ [go up to Feature table](#features)
 
 ## Contributing
 

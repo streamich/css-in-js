@@ -22,17 +22,11 @@ npm run build && open index.html
 More ticks doesn't mean "better", it depends on your needs.
 For example, if a package supports the css file extraction you can run the autoprefixing at build time.
 
-#### How to read the Feature column
-
-| Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
-| -------------------------- | -------------- | ------------- | ------------------------- | ---------------- |
-| ✓                          | ✓              | ✓             | ✓                         | ✓                |
-
-> This list has been auto-updated[*](https://github.com/albinotonnina/mmarkdown) on April 24, 2018
+> This list has been auto-updated[?](https://github.com/albinotonnina/mmarkdown) on April 24, 2018
 
 > Click on a package for more details.
 
-| Stars | Package | Version | Open Issues | Features | Created |
+| Stars | Package | Version | Open Issues | Features ([?](#how-to-read-the-feature-column)) | Created |
 | - | - | - | - | - | - |
 |15654|[styled-components](#styled-components)|[![npm version](https://badge.fury.io/js/styled-components.svg)](https://badge.fury.io/js/styled-components)|121| ✓  ✓  ✓  ✗  ✗ |August 16, 2016|
   |8633|[react-native-web](#react-native-web)|[![npm version](https://badge.fury.io/js/react-native-web.svg)](https://badge.fury.io/js/react-native-web)|32| ✓  ✗  ✗  ✓  ✓ |June 9, 2015|
@@ -1387,6 +1381,14 @@ License: MIT License
 [First Class Styles](https://markdalgleish.github.io/presentation-first-class-styles) by Mark Dalgleish
 
 [Styling React.JS applications](https://www.youtube.com/watch?v=19gqsBc_Cx0) by Max Stoiber
+
+## How to read the Feature column
+
+| Automatic Vendor Prefixing | Pseudo Classes | Media Queries | Styles As Object Literals | Extract CSS File |
+| -------------------------- | -------------- | ------------- | ------------------------- | ---------------- |
+| ✓                          | ✓              | ✓             | ✓                         | ✓                |
+
+↑ [go up to Feature table](#features)
 
 ## Contributing
 

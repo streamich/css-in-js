@@ -32,7 +32,7 @@ const getFeatures = package => {
 }
 
 // prettier-ignore
-const rankTableHeaders = `| Stars | Package | Version | Open Issues | Features | Created |
+const rankTableHeaders = `| Stars | Package | Version | Open Issues | Features ([?](#how-to-read-the-feature-column)) | Created |
 | - | - | - | - | - | - |
 `
 
