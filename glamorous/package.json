@@ -11,7 +11,7 @@
     "glamor": "^2.1.0",
     "glamorous": "^1.0.1",
     "react": "^15.2.1",
-    "react-dom": "^15.2.1"
+    "react-dom": "^16.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
