@@ -10,7 +10,7 @@
   "dependencies": {
     "fela": "^1.1.0",
     "react": "^15.3.0",
-    "react-dom": "^15.3.0",
+    "react-dom": "^16.0.1",
     "react-fela": "^2.1.0"
   },
   "devDependencies": {
