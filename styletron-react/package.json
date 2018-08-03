@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "react": "^15.3.0",
-    "react-dom": "^15.3.0",
+    "react-dom": "^16.0.1",
     "styletron-client": "^2.1.2",
     "styletron-react": "^2.1.2"
   },
