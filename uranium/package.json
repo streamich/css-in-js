@@ -9,7 +9,7 @@
   "license": "MIT",
   "dependencies": {
     "react": "15.3.2",
-    "react-dom": "15.3.2",
+    "react-dom": "16.0.1",
     "uranium": "github:tuckerconnelly/uranium"
   },
   "devDependencies": {
