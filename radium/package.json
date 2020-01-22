@@ -8,7 +8,7 @@
   "author": "Michele Bertoli",
   "license": "MIT",
   "dependencies": {
-    "radium": "^0.13.5",
+    "radium": "^0.16.0",
     "react": "^0.13.3"
   },
   "devDependencies": {
