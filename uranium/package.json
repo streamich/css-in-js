@@ -8,7 +8,7 @@
   "author": "Michele Bertoli",
   "license": "MIT",
   "dependencies": {
-    "react": "15.3.2",
+    "react": "16.5.0",
     "react-dom": "15.3.2",
     "uranium": "github:tuckerconnelly/uranium"
   },
