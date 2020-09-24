@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "aphrodite": "1.2.3",
-    "react": "15.1.0"
+    "react": "16.5.0"
   },
   "devDependencies": {
     "babel-cli": "6.9.0",
