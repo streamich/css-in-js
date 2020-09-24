@@ -8,8 +8,8 @@
   "author": "Michele Bertoli",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "stylable": "^5.0.2",
     "stylable-integration": "^6.0.1"
   },
