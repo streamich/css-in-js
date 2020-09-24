@@ -9,9 +9,9 @@
   "license": "MIT",
   "dependencies": {
     "fela": "^1.1.0",
-    "react": "^15.3.0",
-    "react-dom": "^15.3.0",
-    "react-fela": "^2.1.0"
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-fela": "^3.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.11.4",
