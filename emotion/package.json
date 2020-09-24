@@ -8,9 +8,9 @@
   "author": "Michele Bertoli",
   "license": "MIT",
   "dependencies": {
-    "emotion": "^6.0.3",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "emotion": "^7.0.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
