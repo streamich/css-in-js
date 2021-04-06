@@ -3,16 +3,20 @@
   "version": "1.0.0",
   "description": "react-inline - CSS in JS",
   "scripts": {
-    "build": "react-inline-extract --follow-requires --ignore-dependencies --ignore-node-core --vendor-prefixes --bundle ../bundle.css --babelize . lib/ button && webpack ./lib/button.js bundle.js"
+    "build": "react-inline-extract --follow-requires --ignore-dependencies --ignore-node-core --vendor-prefixes --bundle ../bundle.css --babelize . lib/ button && webpack ./lib/button.js bundle.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Martin Andert",
   "license": "MIT",
   "dependencies": {
     "react": "^0.13.3",
-    "react-inline": "^0.6.3"
+    "react-inline": "^0.6.3",
+    "snyk": "^1.526.0"
   },
   "devDependencies": {
     "babel-runtime": "^5.4.7",
     "webpack": "^1.9.10"
-  }
+  },
+  "snyk": true
 }
