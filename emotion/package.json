@@ -8,7 +8,7 @@
   "author": "Michele Bertoli",
   "license": "MIT",
   "dependencies": {
-    "emotion": "^6.0.3",
+    "emotion": "^7.1.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
