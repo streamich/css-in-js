@@ -8,7 +8,7 @@
   "author": "Michele Bertoli",
   "license": "MIT",
   "dependencies": {
-    "linaria": "0.5.0",
+    "linaria": "1.0.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
